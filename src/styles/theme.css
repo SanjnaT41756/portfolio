@@ -1,0 +1,39 @@
+
+
+@font-face {
+    font-family: 'Brushelva';
+    src: url('./fonts/brushelva-font-1712439275-0/Brushelva-Personal-Used-BF64db3ea3db737.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    
+
+
+  }
+  
+:root {
+    --font-primary: 'Brushelva', sans-serif;
+    --font-secondary: 'Roboto Mono', sans-serif;
+    
+    --color-primary: #2B235A;
+    --color-secondary: #54416D;
+    --small-block-color: #75B4E3;
+    --card-color: #FFFFFF;
+  }
+
+  .big-header {
+    color: var(--color-primary);
+    font-family: var(--font-primary);
+    letter-spacing: 0.25em;
+  }
+  .small-header {
+    color: var(--color-primary);
+    font-family: var(--font-primary);
+    line-height: 72;
+  }
+  
+  .paragraph {
+    color: var(--color-secondary);
+    font-family: var(--font-secondary);
+    line-height: 30;
+    font-weight: -1.5%
+  }
