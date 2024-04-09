@@ -17,6 +17,7 @@
     --color-primary: #2B235A;
     --color-secondary: #54416D;
     --small-block-color: #75B4E3;
+    
     --card-color: #FFFFFF;
   }
 
@@ -24,7 +25,7 @@
     color: var(--color-primary);
     font-family: var(--font-primary);
     letter-spacing: 0.1em;
-    font-size: larger;
+    font-size: 96px;
   }
   .small-header {
     color: var(--color-primary);
@@ -35,7 +36,7 @@
   .paragraph {
     color: var(--color-secondary);
     font-family: var(--font-secondary);
-    font-size: 3px;
-    padding-left: 25px;
-    padding-right: 25px;
+    font-size: 18px;
+    padding-left: 100px;
+    padding-right: 100px;
   }
