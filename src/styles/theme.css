@@ -30,7 +30,9 @@
   .small-header {
     color: var(--color-primary);
     font-family: var(--font-primary);
-    line-height: 72;
+    font-size: 60px;
+    margin : 0px;
+
   }
   
   .paragraph {
