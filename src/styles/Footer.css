@@ -1,0 +1,14 @@
+.footer {
+    background-color: var(--color-primary);
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-text {
+    color: #FFFFFF;
+    font-family: var(--font-tertiary);
+    opacity: 0.8;
+    font-size: 36px;
+    /* padding-left: 100px;
+    padding-right: 100px; */
+}

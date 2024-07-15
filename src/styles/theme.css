@@ -13,6 +13,7 @@
 :root {
     --font-primary: 'Brushelva', sans-serif;
     --font-secondary: 'Roboto Mono', sans-serif;
+    --font-tertiary: 'Montserrat', sans-serif;
     
     --color-primary: #2B235A;
     --color-secondary: #54416D;
@@ -31,7 +32,6 @@
     color: var(--color-primary);
     font-family: var(--font-primary);
     font-size: 60px;
-    margin : 0px;
 
   }
   
