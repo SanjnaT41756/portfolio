@@ -1,17 +1,31 @@
 import React from 'react';
 import '../styles/Footer.css';
 import Sunset from '../styles/images/Sunset.svg';
+import Github from '../styles/images/Github.svg';
+import Linkedin from '../styles/images/LinkedIn.svg';
+import Gmail from '../styles/images/Gmail.svg';
 
 
 const Footer = () => {
     return (
         <footer>
             <div className="footer">
-                <div style={style=}>
-                <p className="footer-text">Feels Like a Sunny Day</p>
-                <img src={Sunset} alt=""/>
-                </div>
+                <p className="footer-text">Feels Like a Sunny Day  <img src={Sunset} alt=""/> </p>
+                <div>
 
+                    <a href="https://github.com/SanjnaT41756" class="image-button" target="_blank">
+                        <img src={Github} alt="Github Account" />
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/sanjna-tailor/" class="image-button" target="_blank">
+                        <img src={Linkedin} alt="LinkedIn Account"/>
+                    </a>
+
+                    <a href="mailto:sstailor2@gmail.com" class="image-button" target="_blank">
+                        <img src={Gmail} alt="Gmail Account sstailor2@gmail.com" />
+                    </a>
+
+                </div>
             </div>
         </footer>
     );

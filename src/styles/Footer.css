@@ -1,7 +1,9 @@
 .footer {
     background-color: var(--color-primary);
     padding: 20px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .footer-text {
@@ -11,4 +13,12 @@
     font-size: 36px;
     /* padding-left: 100px;
     padding-right: 100px; */
+}
+
+.image-button {
+    background-color: var(--color-primary);
+    height: 60px;
+    width: 60px;
+    margin: 20px;
+
 }
