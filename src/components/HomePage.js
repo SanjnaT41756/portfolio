@@ -9,7 +9,7 @@ import AboutMe from './AboutMe';
 const HomePage = () => {
     return (
         <div>
-            <div className="container">
+            <div className="container" id="Header">
                 <div className="header">
                     <p className="paragraph" style={{ marginBottom: '5px', fontSize: '28px', fontWeight: 'lighter'}}> <i>Welcome to the Sunny Side...</i></p>
                     <h2 className="big-header">I'm Sanjna</h2>
@@ -18,7 +18,7 @@ const HomePage = () => {
                 <Menu />
             </div>
             <main>
-                <div className="main-content">
+                <div className="main-content" id = "Projects">
                     <div className="subheading">
                         <h2 className="small-header">Projects</h2>
                     </div>
@@ -26,7 +26,10 @@ const HomePage = () => {
                     <ProjectCard />
                     <ProjectCard />
                 </div>
-                <AboutMe/>
+                <div className="subheading" id = "AboutMe">                
+                    <AboutMe />
+                </div>
+
             </main>
             <Footer />
         </div>

@@ -1,16 +1,18 @@
 import React from 'react';
-import MenuItem from '../components/MenuButton'; 
+import MenuButton from '../components/MenuButton'; 
 import Moon from '../styles/images/Moon.svg';
 import Rainbow from '../styles/images/Rainbow.svg';
 import Sun from '../styles/images/Sun.svg';
 import '../styles/Menu.css';
 
 const Menu = () => {
+
+
   return (
     <div className="menu-container">
-      <MenuItem icon= {Sun} text="Projects" />
-      <MenuItem icon={Moon} text="About Me" />
-      <MenuItem icon={Rainbow} text="Resume" />
+      <MenuButton icon={Sun} text="Projects" targetId="Projects"/>
+      <MenuButton icon={Moon} text="About Me" targetId="AboutMe"/>
+      <MenuButton icon={Rainbow} text="Resume" targetId="Header"/>
 
     </div>
   );
