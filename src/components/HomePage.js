@@ -4,6 +4,7 @@ import '../styles/theme.css';
 import '../styles/HomePage.css';
 import ProjectCard from './ProjectCard';
 import Footer from './Footer';
+import AboutMe from './AboutMe';
 
 const HomePage = () => {
     return (
@@ -25,6 +26,7 @@ const HomePage = () => {
                     <ProjectCard />
                     <ProjectCard />
                 </div>
+                <AboutMe/>
             </main>
             <Footer />
         </div>
