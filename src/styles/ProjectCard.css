@@ -8,7 +8,7 @@
 
     padding: 20px;
     border-radius: 23px;
-    background-color: white;
+    background-color:var(--card-color);
     transition: 0.3s;
     height: 55vh;
     width: 45vh;

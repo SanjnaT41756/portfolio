@@ -27,12 +27,12 @@ const HomePage = () => {
                         <h2 className="small-header">Projects and Experience</h2>
                     </div>
                 <div className="main-content" id = "Projects">
-                    <ProjectCard />
-                    <ProjectCard />
-                    <ProjectCard />
-                    <ProjectCard />
-                    <ProjectCard />
-                    <ProjectCard />
+                    <ProjectCard technologies={["React", "JavaScript", "HTML", "CSS"]}/>
+                    <ProjectCard technologies={["React", "TypeScript", "HTML", "SCSS"]}/>
+                    <ProjectCard technologies={["React", "JavaScript", "HTML", "CSS"]}/>
+                    <ProjectCard technologies={["React", "JavaScript", "HTML", "CSS"]}/>
+                    <ProjectCard technologies={["React", "JavaScript", "HTML", "CSS"]}/>
+                    <ProjectCard technologies={["React", "JavaScript", "HTML", "CSS"]}/>
                 </div>
                 <div className="subheading" id = "AboutMe">                
                     <AboutMe />

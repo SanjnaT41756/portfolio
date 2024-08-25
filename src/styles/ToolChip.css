@@ -1,0 +1,26 @@
+
+
+.block-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2px;
+}
+
+.chip {
+    width: auto;
+    height: 20px;
+    border-radius: 6px;
+    padding: 5px;
+    background-color: var(--small-block-color);
+    justify-content: center;
+    align-items: center;
+}
+
+.small-content{
+    font-size: 12px;
+    color: var(--color-secondary);
+    font-family: var(--font-secondary);
+    color: white;
+    margin: 0px;
+}
