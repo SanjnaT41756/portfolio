@@ -31,14 +31,11 @@
   .small-header {
     color: var(--color-primary);
     font-family: var(--font-primary);
-    font-size: 60px;
+    font-size: 48px;
 
   }
   
   .paragraph {
     color: var(--color-secondary);
     font-family: var(--font-secondary);
-    font-size: 18px;
-    padding-left: 100px;
-    padding-right: 100px;
   }
