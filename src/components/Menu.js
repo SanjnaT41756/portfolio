@@ -4,6 +4,7 @@ import Moon from '../styles/images/Moon.svg';
 import Rainbow from '../styles/images/Rainbow.svg';
 import Sun from '../styles/images/Sun.svg';
 import '../styles/Menu.css';
+import '../styles/theme.css';
 
 const Menu = () => {
 

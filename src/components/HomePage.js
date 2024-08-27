@@ -21,12 +21,12 @@ const HomePage = () => {
                 </div>
                 <Menu />
             </div>
-            <main>
+            <main id = "Projects">
 
                     <div className="subheading">
                         <h2 className="small-header">Projects and Experience</h2>
                     </div>
-                <div className="main-content" id = "Projects">
+                <div className="main-content">
                     <ProjectCard technologies={["React", "JavaScript", "HTML", "CSS"]}/>
                     <ProjectCard technologies={["React", "TypeScript", "HTML", "SCSS"]}/>
                     <ProjectCard technologies={["React", "JavaScript", "HTML", "CSS"]}/>

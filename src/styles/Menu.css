@@ -1,42 +1,53 @@
 .menu-container {
-
   display: flex;
   flex-direction: column;
-  align-items: flex-end; /* Align items to the start of the container */
+  /* align-items: flex-end; Align items to the start of the container */
+  height: fit-content;
+  background-color: var(--small-block-color);
+  margin: 50px 50px 0 0;
+  border-radius: 40px;
+
 }
 
 .menu-item {
     position: relative;
     display: inline-block; 
     margin: 10px;
+    border-radius: 75%;
   }
   
   .menu-item img {
-    width: 45px; 
-    height: 45px;
+    width: 30px; 
+    height: 30px;
     cursor: pointer;
   }
   
   .tooltip {
     visibility: hidden;
     width: 100px;
-    height: 40px;
+    height: fit-content;
     background-color:var(--small-block-color);
     color:var(--color-secondary);
-    font: var(--font-secondary);
-    font-size: 15px;
-    text-align: center;
+    font-family: var(--font-primary);
     padding: 5px;
+    margin:5px;
     border-radius: 6px;
+    border: 1.5px solid var(--color-secondary);
   
     position: absolute;
+    pointer-events: none;
     z-index: 1;
     top: 50%;
     right: calc(100% + 10px); /* Positioning to the left of the icon */
-    transform: translateY(-50%);
+    transform: translateY(-65%);
   }
   
   .menu-item:hover .tooltip {
     visibility: visible;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .menu-item:active{
+      transform: scale(0.9);
   }
   
