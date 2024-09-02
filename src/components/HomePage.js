@@ -33,10 +33,15 @@ const HomePage = () => {
                     <ProjectCard technologies={["React", "JavaScript", "HTML", "CSS"]}/>
                     <ProjectCard technologies={["React", "JavaScript", "HTML", "CSS"]}/>
                     <ProjectCard technologies={["React", "JavaScript", "HTML", "CSS"]}/>
+
+                    <hr style={{ width: '80%', border: '1px solid var(--color-primary)', opacity: '0.5',  }} />
+
                 </div>
-                <div className="subheading" id = "AboutMe">                
-                    <AboutMe />
+                <div className="subheading" id = "AboutMe">     
+                    <h2 className="small-header">About Me</h2>           
                 </div>
+                <AboutMe />
+
 
             </main>
             <Footer />
