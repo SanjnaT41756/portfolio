@@ -32,6 +32,7 @@ const HomePage = () => {
                 {projectsData.map((project, index) => (
                     <ProjectCard
                     key={index}
+                    id={index}
                     title={project.title}
                     description={project.description}
                     technologies={project.technologies}

@@ -24,16 +24,19 @@
     font-family: var(--font-primary);
     letter-spacing: 0.1em;
     font-size: 96px;
+    text-align: center;
   }
   .small-header {
     color: var(--color-primary);
     font-family: var(--font-primary);
     font-size: 48px;
     padding-right: 90px;
+    text-align: center;
 
   }
   
   .paragraph {
     color: var(--color-secondary);
     font-family: var(--font-secondary);
+    text-align: center;
   }
