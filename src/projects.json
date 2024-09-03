@@ -1,0 +1,12 @@
+[
+    {
+        "title": "Classbuddi",
+        "description": "ClassBuddi is a web application designed to help UCLA students easily connect with like-minded classmates in their CS courses.",
+        "technologies": ["React", "JavaScript", "HTML", "CSS", "MaterialUI", "Google Firebase", "Node.js"]
+    },
+    {
+        "title": "Enchir",
+        "description": " enchir is a browser extention designed to help those new to the internet easily navigate and understand any difficult concepts that may come their way.",
+        "technologies": [ "React", "TypeScript", "HTML", "SCSS", "ChakraUI", "Webpack"]
+    }
+]

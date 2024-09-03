@@ -6,6 +6,7 @@ import ProjectCard from './ProjectCard';
 import Footer from './Footer';
 import AboutMe from './AboutMe';
 import UpButton from './UpButton';
+import projectsData from '../projects.json';
 
 const HomePage = () => {
     return (
@@ -28,14 +29,16 @@ const HomePage = () => {
                         <h2 className="small-header">Projects and Experience</h2>
                     </div>
                 <div className="main-content">
-                    <ProjectCard technologies={["React", "JavaScript", "HTML", "CSS"]}/>
-                    <ProjectCard technologies={["React", "TypeScript", "HTML", "SCSS"]}/>
-                    <ProjectCard technologies={["React", "JavaScript", "HTML", "CSS"]}/>
-                    <ProjectCard technologies={["React", "JavaScript", "HTML", "CSS"]}/>
-                    <ProjectCard technologies={["React", "JavaScript", "HTML", "CSS"]}/>
-                    <ProjectCard technologies={["React", "JavaScript", "HTML", "CSS"]}/>
+                {projectsData.map((project, index) => (
+                    <ProjectCard
+                    key={index}
+                    title={project.title}
+                    description={project.description}
+                    technologies={project.technologies}
+                    />
+                ))}
 
-                    <hr style={{ width: '80%', border: '1px solid var(--color-primary)', opacity: '0.5',  }} />
+                    <hr style={{marginLeft:"60px", width: '80%', border: '1px solid var(--color-primary)', opacity: '0.5',  }} />
 
                 </div>
                 <div className="subheading" id = "AboutMe">     
