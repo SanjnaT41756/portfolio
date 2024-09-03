@@ -5,6 +5,7 @@ import '../styles/HomePage.css';
 import ProjectCard from './ProjectCard';
 import Footer from './Footer';
 import AboutMe from './AboutMe';
+import UpButton from './UpButton';
 
 const HomePage = () => {
     return (
@@ -41,7 +42,7 @@ const HomePage = () => {
                     <h2 className="small-header">About Me</h2>           
                 </div>
                 <AboutMe />
-
+                <UpButton/>
 
             </main>
             <Footer />
