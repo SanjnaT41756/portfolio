@@ -2,11 +2,15 @@
     {
         "title": "Classbuddi",
         "description": "ClassBuddi is a web application designed to help UCLA students easily connect with like-minded classmates in their CS courses.",
-        "technologies": ["React", "JavaScript", "HTML", "CSS", "MaterialUI", "Google Firebase", "Node.js"]
+        "technologies": ["React", "JavaScript", "HTML", "CSS", "MaterialUI", "Google Firebase", "Node.js"],
+        "info": "Due to the large class sizes at UCLA, students often struggle to find peers who share similar interests and personalities, making it challenging to form meaningful friendships and support systems in the midst of demanding coursework. Classbuddi address this problem by allowing user to create a profile page with interests and a brief introduction. More importantly, users can filter and search for potential friends in their classes and connect with them through email or social media.",
+        "timeContributions": "Time: This application was created as a class project during Winter 2022 My Contributions: I helped in creating and implementing user interface react components. I additionally took the lead on implementing the filtering for the search feature and integrating the application to the database for backend interactions."
     },
     {
         "title": "Enchir",
         "description": " enchir is a browser extention designed to help those new to the internet easily navigate and understand any difficult concepts that may come their way.",
-        "technologies": [ "React", "TypeScript", "HTML", "SCSS", "ChakraUI", "Webpack"]
+        "technologies": [ "React", "TypeScript", "HTML", "SCSS", "ChakraUI", "Webpack"],
+        "info": "Enchir provides interactive popups on web pages prompting the user with readable informational popups on a range of topics such as cookies, emailing lists, and bookmarks. This Chrome extension takes many frequently asked questions and organizes them into interactive drop-down menus. We ensured that the language and instruction provided were clear and simple so our application could be accessible to those for whom English is a non-dominant language.",
+        "timeContributions": "Time: This project was started Summer 2023 and is still a work in progress My Contributions: I worked on many aspects of this web extension including creating the initial styling of the user interface, integrating Webpack into the React project, and creating content and logical flow for the browser extension. This was the first time I worked with implementing HTML content scripts. "
     }
 ]

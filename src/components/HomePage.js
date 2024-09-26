@@ -3,7 +3,6 @@ import Menu from './Menu';
 import '../styles/theme.css';
 import '../styles/HomePage.css';
 import ProjectCard from './ProjectCard';
-import Footer from './Footer';
 import AboutMe from './AboutMe';
 import UpButton from './UpButton';
 import projectsData from '../projects.json';
@@ -49,7 +48,6 @@ const HomePage = () => {
                 <UpButton/>
 
             </main>
-            <Footer />
         </div>
     );
 };

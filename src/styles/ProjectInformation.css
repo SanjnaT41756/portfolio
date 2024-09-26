@@ -1,9 +1,23 @@
 /* /c:/Users/sstai/portfolio/src/styles/ProjectInformation.css */
 
-.content-container {
-    width: 80%;
-    max-width: 1200px;
+.project-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10% 0 10%;
+    padding: 20px;
+    text-align: center;
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
     padding: 20px;
     text-align: center;
+    gap: 20px;
+
 }
