@@ -21,3 +21,22 @@
     gap: 20px;
 
 }
+
+.repoButton {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--small-block-color);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 6px;
+    gap: 10px;
+}
+.repoButton:hover {
+    cursor: pointer;
+    visibility: visible;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .repoButton:active{
+      transform: scale(0.9);
+  }

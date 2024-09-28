@@ -4,35 +4,40 @@
         "description": "ClassBuddi is a web application designed to help UCLA students easily connect with like-minded classmates in their CS courses.",
         "technologies": ["React", "JavaScript", "HTML", "CSS", "MaterialUI", "Google Firebase", "Node.js"],
         "info": "Due to the large class sizes at UCLA, students often struggle to find peers who share similar interests and personalities, making it challenging to form meaningful friendships and support systems in the midst of demanding coursework. Classbuddi address this problem by allowing user to create a profile page with interests and a brief introduction. More importantly, users can filter and search for potential friends in their classes and connect with them through email or social media.",
-        "timeContributions": "Time: This application was created as a class project during Winter 2022 My Contributions: I helped in creating and implementing user interface react components. I additionally took the lead on implementing the filtering for the search feature and integrating the application to the database for backend interactions."
+        "timeContributions": "Time: This application was created as a class project during Winter 2022 My Contributions: I helped in creating and implementing user interface react components. I additionally took the lead on implementing the filtering for the search feature and integrating the application to the database for backend interactions.",
+        "link": "https://github.com/jainsujay02/classbuddi"
     },
     {
         "title": "Enchir",
         "description": " enchir is a browser extention designed to help those new to the internet easily navigate and understand any difficult concepts that may come their way.",
         "technologies": [ "React", "TypeScript", "HTML", "SCSS", "ChakraUI", "Webpack"],
         "info": "Enchir provides interactive popups on web pages prompting the user with readable informational popups on a range of topics such as cookies, emailing lists, and bookmarks. This Chrome extension takes many frequently asked questions and organizes them into interactive drop-down menus. We ensured that the language and instruction provided were clear and simple so our application could be accessible to those for whom English is a non-dominant language.",
-        "timeContributions": "Time: This project was started Summer 2023 and is still a work in progress My Contributions: I worked on many aspects of this web extension including creating the initial styling of the user interface, integrating Webpack into the React project, and creating content and logical flow for the browser extension. This was the first time I worked with implementing HTML content scripts. "
+        "timeContributions": "Time: This project was started Summer 2023 and is still a work in progress My Contributions: I worked on many aspects of this web extension including creating the initial styling of the user interface, integrating Webpack into the React project, and creating content and logical flow for the browser extension. This was the first time I worked with implementing HTML content scripts. ",
+        "link": "https://github.com/SanjnaT41756/enchir"
     },
     {
         "title": "ThoughtQloud",
         "description": "ThoughtQloud is a guided reflection journal to help process the emotions in response to a loved one \"coming out\".",
         "technologies": ["React", "JavaScript", "HTML", "CSS"],
         "info": "When a child comes out as queer to their parents, many strong emotions may arise in the moment. This guided journal is a way for parents to process their emotions after that conversation. ThoughtQloud (Q for Queer)  is styled as a guided quiz where the user can go down different paths of thought to get personalized feedback and guidance. Because of our target audience, we decided to use simpler language and a simple design. We did this because our audience may not understand terms such as 'coming out' or 'queer' and may not be native English speakers.",
-        "timeContributions":"Time: This application was created during the 2024 QWER Hacks hackathon hosted by UCLA My Contributions: I lead the team during the hackathon, assigning tasks and helping finalize the webpage design. My main roles were in project management, front end development and presentation organization."
+        "timeContributions":"Time: This application was created during the 2024 QWER Hacks hackathon hosted by UCLA My Contributions: I lead the team during the hackathon, assigning tasks and helping finalize the webpage design. My main roles were in project management, front end development and presentation organization.",
+        "link": "https://github.com/SanjnaT41756/ThoughtQloud"
     },
     {
         "title": "Pen Pals",
         "description": "Pen Pals is a web application focusing on educating young kids on Python concepts using an interactive game",
         "technologies": [ "React", "Typescript", "SCSS", "Yarn package manager"],
         "info": "Pen Pals is a React web application geared towards primary school students that teaches basic Python syntax through Python's Turtle library! Turtle is Python's digital canvas where a user can move the 'Turtle' to draw on the screen. Pen Pal introduces turning and moving through a level-based game. I Lead a 5+ member team of developers who contribute to commits regarding UI/UX design and logic functionality. We engage in Agile cycles, refining code through weekly reviews and active collaboration for enhanced code quality.",
-        "timeContributions": "Time: I started working on this ongoing project in Fall 2023, and it is still in progress under ACM Teach LA at UCLA. Contributions: I started working on PenPals as a front end developer fixing logical and user interface bugs. Now I am the project manager for the project as I assign tickets to my team of developers while guiding through the basics of software development and project management."
+        "timeContributions": "Time: I started working on this ongoing project in Fall 2023, and it is still in progress under ACM Teach LA at UCLA. Contributions: I started working on PenPals as a front end developer fixing logical and user interface bugs. Now I am the project manager for the project as I assign tickets to my team of developers while guiding through the basics of software development and project management.",
+        "link": "https://github.com/uclaacm/pen-pals"
     },
     {
         "title": "PortfolioWIP",
         "description": "This is my personal portfolio website. It is a single page application that showcases my projects and provides a brief introduction to who I am.",
         "technologies": ["React", "JavaScript", "HTML", "CSS", "React Router"],
         "info": "This portfolio was created to showcase my projects and provide a brief introduction to who I am. I wanted to create a clean and simple design that would allow users to easily navigate through my projects and learn more about me. I also wanted to practice my React skills and learn how to use React Router.",
-        "timeContributions": "Time: This project was started in Fall 2023 and is still a work in progress. My Contributions: I created the entire project from scratch, including the design, layout, and functionality. I also wrote all the content and implemented the routing using React Router."
+        "timeContributions": "Time: This project was started in Fall 2023 and is still a work in progress. My Contributions: I created the entire project from scratch, including the design, layout, and functionality. I also wrote all the content and implemented the routing using React Router.",
+        "link": "https://github.com/SanjnaT41756/portfolio"
     },
     {
         "title": "Internship",
