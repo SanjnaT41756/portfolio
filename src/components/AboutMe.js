@@ -1,17 +1,19 @@
 import React from 'react';
 import '../styles/AboutMe.css';
 import '../styles/theme.css';
+import headshot from '../styles/images/DSC_0129.JPG';
 
-const AboutMe = () => {
+
+const AboutMe = ({leftText, rightText}) => {
     return (
         <div className="info-container">
             <div className='text'>
-                <p className='paragraph'>Hello, my name is [Your Name]. I am a [Your Profession] with [Number of Years] years of experience in [Your Field]. I have a passion for [Your Interests/Hobbies] and enjoy [Other Relevant Information].</p>
+                <p className='paragraph' style={{ lineHeight: '2', textAlign:'right'}}>{leftText}</p>
             </div>
-            <img src="path_to_your_image.jpg" alt="Sanjna Tailor headshot" />
+            <img src={headshot} alt="Sanjna Tailor headshot" style={{ width: '250px', height: 'auto' }} />
 
             <div className="text">
-                <p className='paragraph'>In my free time, I like to [Your Hobbies/Interests]. I am also skilled in [Other Relevant Skills]. Feel free to reach out to me at [Your Email Address] for any inquiries or collaborations.</p>
+                <p className='paragraph' style={{ lineHeight: '2', textAlign:'left'}}>{rightText}</p>
             </div>
         </div>
     );

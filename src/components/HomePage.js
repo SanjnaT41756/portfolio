@@ -6,6 +6,7 @@ import ProjectCard from './ProjectCard';
 import AboutMe from './AboutMe';
 import UpButton from './UpButton';
 import projectsData from '../projects.json';
+import personalInfo from '../personalInfo.json';
 
 const HomePage = () => {
     return (
@@ -15,9 +16,7 @@ const HomePage = () => {
                     <p className="paragraph" style={{ marginBottom: '5px', fontSize: '28px', fontWeight: 'lighter'}}> <i>Welcome to the Sunny Side...</i></p>
                     <h2 className="big-header">I'm Sanjna</h2>
                     <p className="paragraph" style={{ marginTop: '10px'}}>
-                        < p className='about'>
-                        I'm a full-stack web developer and a student at the University of Washington. I'm passionate about creating beautiful, user-friendly websites and applications. I'm also a huge fan of coffee, dogs, and the color yellow.
-                        </p>
+                        < p className='about'>{personalInfo.topSection}</p>
                     </p>
                 </div>
                 <Menu />
@@ -42,9 +41,9 @@ const HomePage = () => {
 
                 </div>
                 <div className="subheading" id = "AboutMe">     
-                    <h2 className="small-header">About Me</h2>           
+                    <h2 className="small-header" style={{marginBottom:"0px"}}>About Me</h2>           
                 </div>
-                <AboutMe />
+                <AboutMe leftText={personalInfo.bottomSection1} rightText={personalInfo.bottomSection2}/>
                 <UpButton/>
 
             </main>
