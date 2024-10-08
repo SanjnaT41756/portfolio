@@ -21,7 +21,7 @@ const ProjectInformation = () => {
       <div className='project-content'>
         <div className='section'>
           <p className='paragraph'>{project.info}</p>
-          <img src='https://via.placeholder.com/150x150' alt='Placeholder' className='placeholder-image' />
+          <img src={project.image} alt='Project'/>
         </div>
 
         <div className='section'>

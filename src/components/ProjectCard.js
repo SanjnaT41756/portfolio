@@ -4,16 +4,17 @@ import '../styles/ProjectCard.css';
 import '../styles/theme.css';
 import ToolChip from './ToolChip';
 
-const ProjectCard = ({id,title, description, technologies }) => {
+const ProjectCard = ({id,title,image,description, technologies }) => {
 
     const navigate = useNavigate();
     const handleCardClick = () => {
         navigate(`/project/${id}`);
       };
 
+    console.log(image);
     return (
         <div className='card-container'  onClick={handleCardClick}>
-            <img src='https://via.placeholder.com/150x70' alt='Placeholder' className='placeholder-image' />
+            <img src={image} alt='Placeholder'/>
             <div className="inner-card">
                 <h3 className='card-title'>{title}</h3>
                 <p className='paragraph'>
