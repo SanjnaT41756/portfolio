@@ -34,6 +34,7 @@ const HomePage = () => {
                     title={project.title}
                     description={project.description}
                     technologies={project.technologies}
+                    image={project.image}
                     />
                 ))}
 

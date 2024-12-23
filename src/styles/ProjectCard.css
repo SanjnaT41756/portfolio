@@ -1,3 +1,10 @@
+.logo-container{
+    width: 18vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+}
 
 .card-container{
     display: flex;
@@ -6,7 +13,7 @@
     justify-content: center;
     margin: 10px;
 
-    padding: 20px;
+    padding: 25px;
     border-radius: 23px;
     background-color:var(--card-color);
     transition: 0.3s;

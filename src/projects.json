@@ -1,7 +1,7 @@
 [
     {
         "title": "Classbuddi",
-        "image": "/styles/images/Enchir_logo.svg",
+        "image": "ClassBuddi_logo.png",
         "description": "ClassBuddi is a web application designed to help UCLA students easily connect with like-minded classmates in their CS courses.",
         "technologies": ["React", "JavaScript", "HTML", "CSS", "MaterialUI", "Google Firebase", "Node.js"],
         "info": "Due to the large class sizes at UCLA, students often struggle to find peers who share similar interests and personalities, making it challenging to form meaningful friendships and support systems in the midst of demanding coursework. Classbuddi address this problem by allowing user to create a profile page with interests and a brief introduction. More importantly, users can filter and search for potential friends in their classes and connect with them through email or social media.",
@@ -10,7 +10,7 @@
     },
     {
         "title": "Enchir",
-        "image": "/styles/images/Enchir_logo.svg",
+        "image": "Enchir_logo.png",
         "description": " enchir is a browser extention designed to help those new to the internet easily navigate and understand any difficult concepts that may come their way.",
         "technologies": [ "React", "TypeScript", "HTML", "SCSS", "ChakraUI", "Webpack"],
         "info": "Enchir provides interactive popups on web pages prompting the user with readable informational popups on a range of topics such as cookies, emailing lists, and bookmarks. This Chrome extension takes many frequently asked questions and organizes them into interactive drop-down menus. We ensured that the language and instruction provided were clear and simple so our application could be accessible to those for whom English is a non-dominant language.",
@@ -19,7 +19,7 @@
     },
     {
         "title": "ThoughtQloud",
-        "image": "/styles/images/Enchir_logo.svg",
+        "image": "ThoughtQloud_logo.png",
         "description": "ThoughtQloud is a guided reflection journal to help process the emotions in response to a loved one \"coming out\".",
         "technologies": ["React", "JavaScript", "HTML", "CSS"],
         "info": "When a child comes out as queer to their parents, many strong emotions may arise in the moment. This guided journal is a way for parents to process their emotions after that conversation. ThoughtQloud (Q for Queer)  is styled as a guided quiz where the user can go down different paths of thought to get personalized feedback and guidance. Because of our target audience, we decided to use simpler language and a simple design. We did this because our audience may not understand terms such as 'coming out' or 'queer' and may not be native English speakers.",
@@ -28,7 +28,7 @@
     },
     {
         "title": "Pen Pals",
-        "image": "/styles/images/Enchir_logo.svg",
+        "image": "/teach_la_logo.svg",
         "description": "Pen Pals is a web application focusing on educating young kids on Python concepts using an interactive game",
         "technologies": [ "React", "Typescript", "SCSS", "Yarn package manager"],
         "info": "Pen Pals is a React web application geared towards primary school students that teaches basic Python syntax through Python's Turtle library! Turtle is Python's digital canvas where a user can move the 'Turtle' to draw on the screen. Pen Pal introduces turning and moving through a level-based game. I Lead a 5+ member team of developers who contribute to commits regarding UI/UX design and logic functionality. We engage in Agile cycles, refining code through weekly reviews and active collaboration for enhanced code quality.",
@@ -37,7 +37,7 @@
     },
     {
         "title": "Portfolio",
-        "image": "/styles/images/Enchir_logo.svg",
+        "image": "/Portfolio_logo.svg",
         "description": "Welcome to my portfolio! This site serves as a hub for showcasing my projects and experiences. I personally designed, coded, and deployed this website.",
         "technologies": ["React", "JavaScript", "HTML", "CSS", "React Router"],
         "info": "I've always wanted to create a personal website to complement my resume and LinkedIn, and this portfolio became the perfect way to showcase my skills and projects. Throughout this process, I learned a lot—from starting a project to building, deploying, and hosting it on my domain. Thank you for taking the time to explore my portfolio!",
@@ -46,7 +46,7 @@
     },
     {
         "title": "Internship",
-        "image": "/styles/images/Enchir_logo.svg",
+        "image": "Sands_logo.png",
         "description": "Client Engineering Intern at Las Vegas Sands",
         "technologies": ["TypeScript", "React", "Pixi.js", "GSAP", "Miro", "Jira", "Python"],
         "info": "With my internship at Las Vegas Sands, I had the opportunity to collaborate closely with my advisor and the rest of the software engineering team on live projects, gaining insight into various game development departments and regulatory processes. My contributions to front-end development have been impactful, particularly in implementing a program that boosted live update speeds by 80%. Additionally, I played a key role in developing a live game show project, working alongside multiple teams to drive both product development and UI design.",

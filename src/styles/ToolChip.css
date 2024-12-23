@@ -5,6 +5,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 2px;
+    margin-bottom: 10px;
 }
 
 .chip {

@@ -10,7 +10,10 @@ const AboutMe = ({leftText, rightText}) => {
             <div className='text'>
                 <p className='paragraph' style={{ lineHeight: '2', textAlign:'right'}}>{leftText}</p>
             </div>
-            <img src={headshot} alt="Sanjna Tailor headshot" style={{ width: '250px', height: 'auto' }} />
+            <div className="headshot-container">
+                <img className = 'headshot' src={headshot} alt="Sanjna Tailor headshot" style={{ width: '250px', height: 'auto', borderRadius:'10px'}} />
+            </div>
+            
 
             <div className="text">
                 <p className='paragraph' style={{ lineHeight: '2', textAlign:'left'}}>{rightText}</p>
