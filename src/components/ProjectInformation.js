@@ -13,7 +13,7 @@ const ProjectInformation = () => {
     return <p>Project not found</p>;
   }
 
-  //project.val
+  console.log(project.image);
   return (
     <div>
       <BackButton />
@@ -21,11 +21,12 @@ const ProjectInformation = () => {
       <div className='project-content'>
         <div className='section'>
           <p className='paragraph'>{project.info}</p>
-          <img src={project.image} alt='Project'/>
+
+          <img src={project.pimage1} alt='Project' className='project-image'/>
         </div>
 
         <div className='section'>
-          <img src='https://via.placeholder.com/150x150' alt='Placeholder' className='placeholder-image' />
+          <img src={project.pimage2} alt='Project' className='project-image'/>
           <p className='paragraph'>{project.timeContributions}</p>
         </div>
 

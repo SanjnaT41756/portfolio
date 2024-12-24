@@ -35,6 +35,8 @@ const HomePage = () => {
                     description={project.description}
                     technologies={project.technologies}
                     image={project.image}
+                    pimage1={project.pimage1}
+                    pimage2={project.pimage2}
                     />
                 ))}
 

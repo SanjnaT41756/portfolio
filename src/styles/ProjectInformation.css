@@ -21,7 +21,12 @@
     gap: 20px;
 
 }
-
+.project-image {
+    width: 50%;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
 .repoButton {
     display: flex;
     flex-direction: row;
