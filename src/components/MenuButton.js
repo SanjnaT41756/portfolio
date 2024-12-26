@@ -1,12 +1,16 @@
 import React from 'react';
 import '../styles/Menu.css';
 
-const MenuButton = ({ icon, text, targetId }) => {
+const MenuButton = ({ icon, text, targetId, link }) => {
   const handleClick = () => {
-    console.log('clicked ', targetId);
-    const targetElement = document.getElementById(targetId);
-    if (targetElement) {
-      targetElement.scrollIntoView({ behavior: 'smooth' });
+    if (link) {
+      window.open(link, '_blank');
+    } else if (targetId) {
+      console.log('clicked ', targetId);
+      const targetElement = document.getElementById(targetId);
+      if (targetElement) {
+        targetElement.scrollIntoView({ behavior: 'smooth' });
+      }
     }
   };
 
