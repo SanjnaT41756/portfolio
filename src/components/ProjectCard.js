@@ -14,7 +14,7 @@ const ProjectCard = ({id,title,image,description, technologies }) => {
     console.log(image);
     return (
         <div className='card-container'  onClick={handleCardClick}>
-            <img className="logo-container" src={image} alt='Placeholder'/>
+            <img className="logo-container"  src={`${process.env.PUBLIC_URL}/${image}`} alt='Placeholder'/>
             <div className="inner-card">
                 <h3 className='card-title'>{title}</h3>
                 <p className='paragraph'>

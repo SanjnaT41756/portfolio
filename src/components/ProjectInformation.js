@@ -22,11 +22,11 @@ const ProjectInformation = () => {
         <div className='section'>
           <p className='paragraph'>{project.info}</p>
 
-          <img src={project.pimage1} alt='Project' className='project-image'/>
+          <img  src={`${process.env.PUBLIC_URL}/${project.pimage1}`} alt='Project' className='project-image'/>
         </div>
 
         <div className='section'>
-          <img src={project.pimage2} alt='Project' className='project-image'/>
+          <img src={`${process.env.PUBLIC_URL}/${project.pimage2}`} alt='Project' className='project-image'/>
           <p className='paragraph'>{project.timeContributions}</p>
         </div>
 
