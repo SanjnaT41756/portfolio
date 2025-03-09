@@ -13,7 +13,7 @@ const Menu = () => {
     <div className="menu-container">
       <MenuButton icon={Sun} text="Projects" targetId="Projects"/>
       <MenuButton icon={Moon} text="About Me" targetId="AboutMe"/>
-      <MenuButton icon={Rainbow} text="Resume" link="https://drive.google.com/file/d/1CTA9s550epVIZOuzMpbb4LkLWBs-REJ_/view?usp=drive_link"/>
+      <MenuButton icon={Rainbow} text="Resume" link="https://drive.google.com/file/d/1EOHVVS4hXhRb9oM4Xg80NBj9XF-qxLZg/view?usp=sharing"/>
 
     </div>
   );
