@@ -26,13 +26,13 @@
     visibility: hidden;
     width: 100px;
     height: fit-content;
-    background-color:var(--small-block-color);
-    color:var(--color-secondary);
+    background-color: #EFEBE9;  /* Light beige background for better contrast */
+    color: var(--color-primary);  /* Dark brown text */
     font-family: var(--font-primary);
     padding: 5px;
     margin:5px;
     border-radius: 6px;
-    border: 1.5px solid var(--color-secondary);
+    border: 1.5px solid var(--color-primary);
   
     position: absolute;
     pointer-events: none;
@@ -47,7 +47,9 @@
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
   }
 
-  .menu-item:active{
+  .menu-item:active {
+    transform: scale(0.95);
+    opacity: 0.9;
       transform: scale(0.9);
   }
   
