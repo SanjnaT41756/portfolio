@@ -24,9 +24,21 @@ const Footer = () => {
           <div className="footer-links">
             <h3>Navigation</h3>
             <ul>
-              <li><a href="#Header">Home</a></li>
-              <li><a href="#Projects">Projects</a></li>
-              <li><a href="#AboutMe">About</a></li>
+              <li><a href="#Header" onClick={(e) => {
+                e.preventDefault();
+                const target = document.getElementById('Header');
+                if (target) target.scrollIntoView({ behavior: 'smooth' });
+              }}>Home</a></li>
+              <li><a href="#Projects" onClick={(e) => {
+                e.preventDefault();
+                const target = document.getElementById('Projects');
+                if (target) target.scrollIntoView({ behavior: 'smooth' });
+              }}>Projects</a></li>
+              <li><a href="#AboutMe" onClick={(e) => {
+                e.preventDefault();
+                const target = document.getElementById('AboutMe');
+                if (target) target.scrollIntoView({ behavior: 'smooth' });
+              }}>About Me</a></li>
             </ul>
           </div>
           

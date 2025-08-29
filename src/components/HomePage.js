@@ -1,5 +1,4 @@
 import React from 'react';
-import Menu from './Menu';
 import '../styles/theme.css';
 import '../styles/HomePage.css';
 import ProjectCard from './ProjectCard';
@@ -19,8 +18,20 @@ const HomePage = () => {
                         <h2 className="hero-subtitle">Linguistics & Computer Science @ UCLA</h2>
                         <p className="hero-description">{personalInfo.topSection}</p>
                         <div className="hero-cta">
-                            <a href="#Projects" className="cta-button">View My Work</a>
-                            <a href="#AboutMe" className="cta-button secondary">About Me</a>
+                            <a href="#Projects" className="cta-button" onClick={(e) => {
+                                e.preventDefault();
+                                const targetElement = document.getElementById("Projects");
+                                if (targetElement) {
+                                    targetElement.scrollIntoView({ behavior: 'smooth' });
+                                }
+                            }}>View My Work</a>
+                            <a href="#AboutMe" className="cta-button secondary" onClick={(e) => {
+                                e.preventDefault();
+                                const targetElement = document.getElementById("AboutMe");
+                                if (targetElement) {
+                                    targetElement.scrollIntoView({ behavior: 'smooth' });
+                                }
+                            }}>About Me</a>
                         </div>
                     </div>
                     <div className="hero-visual">
@@ -33,8 +44,6 @@ const HomePage = () => {
                     <div className="arrow-down"></div>
                 </div>
             </header>
-
-            <Menu />
 
             <main className="main-content">
                 {/* About Me Section */}
