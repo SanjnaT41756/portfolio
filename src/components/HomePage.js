@@ -4,10 +4,18 @@ import '../styles/HomePage.css';
 import ProjectCard from './ProjectCard';
 import AboutMe from './AboutMe';
 import UpButton from './UpButton';
+import headshot from '../styles/images/DSC_0129.JPG';
 import projectsData from '../projects.json';
 import personalInfo from '../personalInfo.json';
 
 const HomePage = () => {
+    const handleViewWorkClick = (e) => {
+        e.preventDefault();
+        const targetElement = document.getElementById("Projects");
+        if (targetElement) {
+            targetElement.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
     return (
         <div className="portfolio-container">
             {/* Hero Section */}
@@ -18,16 +26,12 @@ const HomePage = () => {
                         <h2 className="hero-subtitle">Linguistics & Computer Science @ UCLA</h2>
                         <p className="hero-description">{personalInfo.topSection}</p>
                         <div className="hero-cta">
-                            <a href="#Projects" className="cta-button" onClick={(e) => {
-                                e.preventDefault();
-                                const targetElement = document.getElementById("Projects");
-                                if (targetElement) {
-                                    targetElement.scrollIntoView({ behavior: 'smooth' });
-                                }
-                            }}>View My Work</a>
+                            <a href="#Projects" className="cta-button" onClick={handleViewWorkClick}>
+                                View My Work
+                            </a>
                             <a href="#AboutMe" className="cta-button secondary" onClick={(e) => {
                                 e.preventDefault();
-                                const targetElement = document.getElementById("AboutMe");
+                                const targetElement = document.getElementById('AboutMe');
                                 if (targetElement) {
                                     targetElement.scrollIntoView({ behavior: 'smooth' });
                                 }
@@ -35,8 +39,14 @@ const HomePage = () => {
                         </div>
                     </div>
                     <div className="hero-visual">
-                        {/* Add a nice visual element or your photo here */}
-                        <div className="visual-placeholder"></div>
+                        <div className="hero-image-container">
+                            <img 
+                                src={headshot} 
+                                alt="Sanjna Tailor" 
+                                className="hero-image"
+                            />
+                            <div className="hero-image-decoration"></div>
+                        </div>
                     </div>
                 </div>
                 <div className="scroll-indicator">
@@ -45,16 +55,8 @@ const HomePage = () => {
                 </div>
             </header>
 
-            <main className="main-content">
-                {/* About Me Section */}
-                <section id="AboutMe" className="about-section">
-                    <div className="section-header">
-                        <h2 className="section-title">About Me</h2>
-                        <div className="section-divider"></div>
-                    </div>
-                    <AboutMe leftText={personalInfo.bottomSection1} rightText={personalInfo.bottomSection2} />
-                </section>
 
+            <main className="main-content">
                 {/* Projects Section */}
                 <section id="Projects" className="projects-section">
                     <div className="section-header">
@@ -75,6 +77,15 @@ const HomePage = () => {
                             />
                         ))}
                     </div>
+                </section>
+
+                {/* About Me Section */}
+                <section id="AboutMe" className="about-section">
+                    <div className="section-header">
+                        <h2 className="section-title">About Me</h2>
+                        <div className="section-divider"></div>
+                    </div>
+                    <AboutMe cards={personalInfo.cards} />
                 </section>
             </main>
             <UpButton />

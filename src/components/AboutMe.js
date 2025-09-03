@@ -1,23 +1,30 @@
 import React from 'react';
 import '../styles/AboutMe.css';
 import '../styles/theme.css';
-import headshot from '../styles/images/DSC_0129.JPG';
 
-
-const AboutMe = ({leftText, rightText}) => {
+const AboutMe = ({ cards }) => {
     return (
-        <div className="info-container">
-            <div className='text'>
-                <p className='paragraph' style={{ lineHeight: '2', textAlign:'right'}}>{leftText}</p>
-            </div>
-            <div className="headshot-container">
-                <img className = 'headshot' src={headshot} alt="Sanjna Tailor headshot" style={{ width: '250px', height: 'auto', borderRadius:'10px'}} />
-            </div>
-            
-
-            <div className="text">
-                <p className='paragraph' style={{ lineHeight: '2', textAlign:'left'}}>{rightText}</p>
-            </div>
+        <div className="about-me-container">
+            {cards.map((card, index) => (
+                <div key={index} className="about-card" data-aos="fade-up" data-aos-delay={index * 100}>
+                    <div className="card-icon">{card.icon}</div>
+                    <h3 className="card-title">{card.title}</h3>
+                    <p className="card-content">{card.content}</p>
+                    <div className="card-links">
+                        {card.links.map((link, linkIndex) => (
+                            <a 
+                                key={linkIndex} 
+                                href={link.url} 
+                                className="card-link"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                {link.text}
+                            </a>
+                        ))}
+                    </div>
+                </div>
+            ))}
         </div>
     );
 };
