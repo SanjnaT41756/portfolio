@@ -48,10 +48,10 @@
         "image": "/images/Portfolio_logo.svg",
         "pimage1": "/images/pPortfolio1.png",
         "pimage2": "/images/pPortfolio2.png",
-        "description": "Welcome to my portfolio! This site serves as a hub for showcasing my projects and experiences. I personally designed, coded, and deployed this website.",
+        "description": "Welcome to my portfolio! I personally designed, coded, and deployed this website.",
         "technologies": ["React", "JavaScript", "HTML", "CSS", "React Router"],
-        "info": "I've always wanted to create a personal website to complement my resume and LinkedIn, and this portfolio became the perfect way to showcase my skills and projects. Throughout this process, I learned a lot—from starting a project to building, deploying, and hosting it on my domain. Thank you for taking the time to explore my portfolio!",
-        "timeContributions": "Time: This portfolio was started during Spring 2024 and completed around Fall 2024 My Contributions: I made everything you are viewing!",
+        "info": "I've always wanted to create a personal website to complement my resume and LinkedIn, and this portfolio became the perfect way to showcase my skills and projects. Throughout this process, I learned a lot—from starting a project to building, deploying, and hosting it on my domain. Recently, I refactored the stying of the portfolio while learning new technical tools (Windsurf). Thank you for taking the time to explore my portfolio!",
+        "timeContributions": "Time: This portfolio was started during Spring 2024 and completed around Fall 2024. Refactored in Summer 2025. My Contributions: I made everything you are viewing!",
         "link": "https://github.com/SanjnaT41756/portfolio"
     },
     {
