@@ -9,6 +9,7 @@
   flex-direction: column;
   border: 1px solid rgba(141, 110, 99, 0.1);
   position: relative;
+  cursor: pointer;
 }
 
 .project-card::before {

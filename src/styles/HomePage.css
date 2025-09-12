@@ -12,7 +12,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 6rem 0;
+  padding: 0 0 6rem 0;
   position: relative;
   background: linear-gradient(135deg, #FFF8F0 0%, #F5E6D9 100%);
   border-radius: 0 0 2rem 2rem;
@@ -215,7 +215,7 @@
 }
 
 .section-header {
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
   text-align: center;
 }
 
