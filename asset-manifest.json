@@ -1,26 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.0f7d3ddf.css",
-    "main.js": "/portfolio/static/js/main.698fd947.js",
+    "main.css": "/portfolio/static/css/main.d646caa2.css",
+    "main.js": "/portfolio/static/js/main.d3a6c7cf.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/DSC_0129.JPG": "/portfolio/static/media/DSC_0129.3c40166064e651eb579f.JPG",
     "static/media/Brushelva-Personal-Used-BF64db3ea3db737.ttf": "/portfolio/static/media/Brushelva-Personal-Used-BF64db3ea3db737.40f75e84da1b41be00d0.ttf",
     "static/media/Github.svg": "/portfolio/static/media/Github.51aad4c98bf17835c9f015803ec1b41d.svg",
     "index.html": "/portfolio/index.html",
-    "static/media/LinkedIn.svg": "/portfolio/static/media/LinkedIn.091cb9941652a8d70536640d5020c841.svg",
-    "static/media/Gmail.svg": "/portfolio/static/media/Gmail.58573cd291e1190ecfff05c29894d778.svg",
-    "static/media/Sun.svg": "/portfolio/static/media/Sun.7d0cab0cfbfc070c95ad469c0c1da61b.svg",
-    "static/media/Rainbow.svg": "/portfolio/static/media/Rainbow.63ac67ff57f344b2923ced35085e43b3.svg",
-    "static/media/Moon.svg": "/portfolio/static/media/Moon.aef769fe7adaee16c8694de278b44478.svg",
     "static/media/LeftArrow.svg": "/portfolio/static/media/LeftArrow.6daf8a1a91dc7c811c35232a67177411.svg",
-    "static/media/Sunset.svg": "/portfolio/static/media/Sunset.690a33fd00dd2906e49fd7ed2ad26586.svg",
     "static/media/Arrow.svg": "/portfolio/static/media/Arrow.3c02e36de46b711a2c236a590cdb6595.svg",
-    "main.0f7d3ddf.css.map": "/portfolio/static/css/main.0f7d3ddf.css.map",
-    "main.698fd947.js.map": "/portfolio/static/js/main.698fd947.js.map",
+    "main.d646caa2.css.map": "/portfolio/static/css/main.d646caa2.css.map",
+    "main.d3a6c7cf.js.map": "/portfolio/static/js/main.d3a6c7cf.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f7d3ddf.css",
-    "static/js/main.698fd947.js"
+    "static/css/main.d646caa2.css",
+    "static/js/main.d3a6c7cf.js"
   ]
 }
