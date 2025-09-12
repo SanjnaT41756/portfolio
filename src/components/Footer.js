@@ -15,7 +15,7 @@ const Footer = () => {
               <FaSun className="logo-icon" />
               <span>Sanjna Tailor</span>
             </div>
-            <p className="tagline">Linguistics & Computer Science @ UCLA</p>
+            <p className="tagline">Software Engineering @ Las Vegas Sands</p>
             <p className="copyright">
               {currentYear} Sanjna Tailor. All rights reserved.
             </p>
@@ -70,13 +70,13 @@ const Footer = () => {
             </div>
             <p className="weather">
               <FiSun className="sun-icon" />
-              Always sunny on this side
+              Always on the sunny side
             </p>
           </div>
         </div>
         
         <div className="footer-bottom">
-          <p>Built with React & </p>
+          <p>Built with React and refactored with Windsurf</p>
         </div>
       </div>
     </footer>

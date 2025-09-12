@@ -1,5 +1,5 @@
 {
-    "topSection": "I'm a full-stack developer concentrating on front-end development and a student at the University of California, Los Angeles. I'm passionate about digital accessibility, linguistics, and user-friendly applications. Welcome to my portfolio!",
+    "topSection": "I'm a Jr. Software Engineer at Las Vegas Sands Corp. and UCLA '25 Linguistics and Computer Science graduate. I'm passionate about digital accessibility, linguistics, and user-friendly applications. Welcome to my portfolio!",
     "cards": [
         {
             "title": "Education",
@@ -13,10 +13,10 @@
         {
             "title": "Interests",
             "icon": "🌟",
-            "content": "Digital accessibility, Computational linguistics, Human-computer interaction, Cultural exchange through technology",
+            "content": "Digital accessibility, Computational linguistics, Human-computer interaction.",
             "links": [
-                {"text": "Read Blog", "url": "#"},
-                {"text": "Contact Me", "url": "#Contact"}
+                {"text": "Read Blog", "url": "https://medium.com/@sanjnatailor/encouraging-sustainable-shopping-habits-with-verdant-c2dd4a199fa8"},
+                {"text": "Contact Me", "url": "mailto:sstailor2@gmail.com"}
             ]
         },
         {
