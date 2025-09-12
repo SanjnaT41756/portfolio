@@ -1,31 +1,53 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import { FiArrowRight } from 'react-icons/fi';
 import '../styles/ProjectCard.css';
 import '../styles/theme.css';
-import ToolChip from './ToolChip';
 
-const ProjectCard = ({id,title,image,description, technologies }) => {
+const ProjectCard = ({ id, title, image, description, technologies = [] }) => {
+  const navigate = useNavigate();
+  
+  const handleCardClick = () => {
+    navigate(`/project/${id}`);
+  };
 
-    const navigate = useNavigate();
-    const handleCardClick = () => {
-        navigate(`/project/${id}`);
-      };
-
-    console.log(image);
-    return (
-        <div className='card-container'  onClick={handleCardClick}>
-            <img className="logo-container"  src={`${process.env.PUBLIC_URL}/${image}`} alt='Placeholder'/>
-            <div className="inner-card">
-                <h3 className='card-title'>{title}</h3>
-                <p className='paragraph'>
-                    <p className='content'>
-                    {description}
-                    </p>
-                </p>
-                <ToolChip chipList={technologies} />
-            </div>
-        </div>
-    );
+  return (
+    <article className="project-card" onClick={handleCardClick}>
+      <div className="card-image">
+        <img 
+          src={`${process.env.PUBLIC_URL}/${image}`} 
+          alt={`${title} project`}
+          loading="lazy"
+        />
+      </div>
+      
+      <div className="card-content">
+        <h3 className="card-title">{title}</h3>
+        
+        <p className="card-description">
+          {description}
+        </p>
+        
+        {technologies.length > 0 && (
+          <div className="technologies">
+            {technologies.slice(0, 4).map((tech, index) => (
+              <span key={index} className="tech-tag">
+                {tech}
+              </span>
+            ))}
+            {technologies.length > 4 && (
+              <span className="tech-tag">+{technologies.length - 4}</span>
+            )}
+          </div>
+        )}
+        
+        <span className="card-cta">
+          View Project
+          <FiArrowRight size={18} />
+        </span>
+      </div>
+    </article>
+  );
 };
 
 export default ProjectCard;

@@ -1,5 +1,32 @@
 {
-    "topSection": "I'm a full-stack developer concentrating on front-end development and a student at the University of California, Los Angeles. I'm passionate about digital accessibility, linguistics, and user-friendly applications. Welcome to my portfolio!",
-    "bottomSection1": "Hi! I'm Sanjna Tailor, an undergraduate at the University of California, Los Angeles. I am pursuing a degree in Linguistics and Computer Science. Through my educational and internship experiences, I've gained invaluable insights into the software industry – discovering my passions in increasing accessibility to digital education for all ages, natural language processing, and front-end development. I'd love to connect—feel free to reach out!",
-    "bottomSection2": "In my free time, I enjoy immersing myself in Bollywood films, which inspire my interest for learning about cultures, languages, and the human experience. I’m also an avid music lover, always exploring new genres and artists. Additionally, I find joy in creating intricate henna designs, a form of art that allows me to connect to my heritage and express my creativity."
+    "topSection": "I'm a Jr. Software Engineer at Las Vegas Sands Corp. and UCLA '25 Linguistics and Computer Science graduate. I'm passionate about digital accessibility, linguistics, and user-friendly applications. Welcome to my portfolio!",
+    "cards": [
+        {
+            "title": "Education",
+            "icon": "🎓",
+            "content": "Graduated from UCLA with a B.A. in Linguistics & Computer Science.",
+            "links": [
+                {"text": "View My Work", "url": "https://github.com/SanjnaT41756"},
+                {"text": "LinkedIn", "url": "https://www.linkedin.com/in/sanjna-tailor/"}
+            ]
+        },
+        {
+            "title": "Interests",
+            "icon": "🌟",
+            "content": "Digital accessibility, Computational linguistics, Human-computer interaction.",
+            "links": [
+                {"text": "Read Blog", "url": "https://medium.com/@sanjnatailor/encouraging-sustainable-shopping-habits-with-verdant-c2dd4a199fa8"},
+                {"text": "Contact Me", "url": "mailto:sstailor2@gmail.com"}
+            ]
+        },
+        {
+            "title": "Hobbies",
+            "icon": "🎨",
+            "content": "Practicing henna art, exploring Bollywood cinema, and reviewing cafes!",
+            "links": [
+                {"text": "UCLA Henna Club", "url": "https://www.instagram.com/hennawithaheartatucla/?hl=en"},
+                {"text": "LetterBoxd", "url": "https://boxd.it/cDFPh"}
+            ]
+        }
+    ]
 }

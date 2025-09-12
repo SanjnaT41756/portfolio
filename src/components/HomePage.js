@@ -1,55 +1,94 @@
 import React from 'react';
-import Menu from './Menu';
 import '../styles/theme.css';
 import '../styles/HomePage.css';
 import ProjectCard from './ProjectCard';
 import AboutMe from './AboutMe';
 import UpButton from './UpButton';
+import headshot from '../styles/images/DSC_0129.JPG';
 import projectsData from '../projects.json';
 import personalInfo from '../personalInfo.json';
 
 const HomePage = () => {
+    const handleViewWorkClick = (e) => {
+        e.preventDefault();
+        const targetElement = document.getElementById("Projects");
+        if (targetElement) {
+            targetElement.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
     return (
-        <div>
-            <div className="container" id="Header">
-                <div className="header">
-                    <p className="paragraph" style={{ marginBottom: '5px', fontSize: '28px', fontWeight: 'lighter'}}> <i>Welcome to the Sunny Side...</i></p>
-                    <h2 className="big-header">I'm Sanjna</h2>
-                    <p className="paragraph" style={{ marginTop: '10px'}}>
-                        < p className='about'>{personalInfo.topSection}</p>
-                    </p>
-                </div>
-                <Menu />
-            </div>
-            <main id = "Projects">
-
-                    <div className="subheading">
-                        <h2 className="small-header">Projects and Experience</h2>
+        <div className="portfolio-container">
+            {/* Hero Section */}
+            <header className="hero" id="Header">
+                <div className="hero-content">
+                    <div className="hero-text">
+                        <h1 className="hero-title">Sanjna Tailor</h1>
+                        <h2 className="hero-subtitle">Software Engineering @ Las Vegas Sands</h2>
+                        <p className="hero-description">{personalInfo.topSection}</p>
+                        <div className="hero-cta">
+                            <a href="#Projects" className="cta-button" onClick={handleViewWorkClick}>
+                                View My Work
+                            </a>
+                            <a href="#AboutMe" className="cta-button secondary" onClick={(e) => {
+                                e.preventDefault();
+                                const targetElement = document.getElementById('AboutMe');
+                                if (targetElement) {
+                                    targetElement.scrollIntoView({ behavior: 'smooth' });
+                                }
+                            }}>About Me</a>
+                        </div>
                     </div>
-                <div className="main-content">
-                {projectsData.map((project, index) => (
-                    <ProjectCard
-                    key={index}
-                    id={index}
-                    title={project.title}
-                    description={project.description}
-                    technologies={project.technologies}
-                    image={project.image}
-                    pimage1={project.pimage1}
-                    pimage2={project.pimage2}
-                    />
-                ))}
-
-                    <hr style={{marginLeft:"60px", width: '80%', border: '1px solid var(--color-primary)', opacity: '0.5',  }} />
-
+                    <div className="hero-visual">
+                        <div className="hero-image-container">
+                            <img 
+                                src={headshot} 
+                                alt="Sanjna Tailor" 
+                                className="hero-image"
+                            />
+                            <div className="hero-image-decoration"></div>
+                        </div>
+                    </div>
                 </div>
-                <div className="subheading" id = "AboutMe">     
-                    <h2 className="small-header" style={{marginBottom:"0px"}}>About Me</h2>           
+                <div className="scroll-indicator">
+                    <span>Scroll to explore</span>
+                    <div className="arrow-down"></div>
                 </div>
-                <AboutMe leftText={personalInfo.bottomSection1} rightText={personalInfo.bottomSection2}/>
-                <UpButton/>
+            </header>
 
+
+            <main className="main-content">
+                {/* Projects Section */}
+                <section id="Projects" className="projects-section">
+                    <div className="section-header">
+                        <h2 className="section-title">Featured Projects</h2>
+                        <div className="section-divider"></div>
+                    </div>
+                    <div className="projects-grid">
+                        {projectsData.map((project, index) => (
+                            <ProjectCard
+                                key={index}
+                                id={index}
+                                title={project.title}
+                                description={project.description}
+                                technologies={project.technologies}
+                                image={project.image}
+                                pimage1={project.pimage1}
+                                pimage2={project.pimage2}
+                            />
+                        ))}
+                    </div>
+                </section>
+
+                {/* About Me Section */}
+                <section id="AboutMe" className="about-section">
+                    <div className="section-header">
+                        <h2 className="section-title">About Me</h2>
+                        <div className="section-divider"></div>
+                    </div>
+                    <AboutMe cards={personalInfo.cards} />
+                </section>
             </main>
+            <UpButton />
         </div>
     );
 };
