@@ -33,6 +33,17 @@
         "link": "https://github.com/SanjnaT41756/ThoughtQloud"
     },
     {
+        "title": "MiniStream",
+        "image": "/images/MiniStream_logo.png",
+        "pimage1": "/images/pMiniStream1.png",
+        "pimage2": "/images/pMiniStream2.png",
+        "description": "A simulation of a Roku client application that demonstrates navigation, playback states, and analytics logging.",
+        "technologies": ["React", "JavaScript", "Vite", "Tailwind CSS Modules", "Jest"],
+        "info": "TV-style Navigation: Intuitive arrow-key navigation for a seamless browsing experience. Playback Lifecycle: Full media playback states including BUFFERING, PLAYING, PAUSED, and STOPPED. Analytics Integration: Comprehensive event logging for user interactions and playback metrics. Modular Architecture: Clean component structure for easy maintenance and extension.",
+        "timeContributions":"Time: This practice application was created in October 2025 My Contributions: I developed the landing page and player interface, consulting Windsurf agent for testing and video playback implementation",
+        "link": "https://github.com/SanjnaT41756/MiniStream"
+    },
+    {
         "title": "Pen Pals",
         "image": "/images/teach_la_logo.svg",
         "pimage1": "/images/pPenPals1.png",
