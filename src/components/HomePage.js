@@ -23,7 +23,7 @@ const HomePage = () => {
                 <div className="hero-content">
                     <div className="hero-text">
                         <h1 className="hero-title">Sanjna Tailor</h1>
-                        <h2 className="hero-subtitle">Software Engineering @ Las Vegas Sands</h2>
+                        <h2 className="hero-subtitle"> prev. Software Engineering @ Las Vegas Sands</h2>
                         <p className="hero-description">{personalInfo.topSection}</p>
                         <div className="hero-cta">
                             <a href="#Projects" className="cta-button" onClick={handleViewWorkClick}>
