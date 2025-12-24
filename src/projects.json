@@ -11,6 +11,18 @@
         "link": "https://github.com/jainsujay02/classbuddi"
     },
     {
+        "title": "Verdant",
+        "image": "/images/Verdant_logo.png",
+        "pimage1": "/images/pVerdant1.png",
+        "pimage2": "/images/pVerdant2.png",
+        "description": "Verdant is a chrome extention that displays a brand's sustainability score to help shoppers make informed decisions.",
+        "technologies": ["React", "JavaScript", "HTML", "CSS", "Rest API", "Good On You API"],
+        "info": "People do care about climate change, but they don’t consider it while shopping online because the information is inaccessible. Verdant helps with that",
+        "timeContributions": "Time: This application was created as a class project during Spring 2025 My Contributions: Developed research methods and performed three rounds of structured and semi-structured interviews. I also coordinated with Good On You, the world's leading source for brand sustainability ratings, incorporating official API. I facilitated communcation with the CEO and presented the final project to the company.",
+        "link": "https://github.com/naketriskirk/cs188-climate"
+    },
+
+    {
         "title": "Enchir",
         "image": "/images/Enchir_logo.png",
         "pimage1": "/images/pEnchir1.png",
