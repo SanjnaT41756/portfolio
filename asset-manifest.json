@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.d646caa2.css",
-    "main.js": "/portfolio/static/js/main.eee1c67b.js",
+    "main.js": "/portfolio/static/js/main.e7387c74.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/DSC_0129.JPG": "/portfolio/static/media/DSC_0129.3c40166064e651eb579f.JPG",
     "static/media/Brushelva-Personal-Used-BF64db3ea3db737.ttf": "/portfolio/static/media/Brushelva-Personal-Used-BF64db3ea3db737.40f75e84da1b41be00d0.ttf",
@@ -10,11 +10,11 @@
     "static/media/LeftArrow.svg": "/portfolio/static/media/LeftArrow.6daf8a1a91dc7c811c35232a67177411.svg",
     "static/media/Arrow.svg": "/portfolio/static/media/Arrow.3c02e36de46b711a2c236a590cdb6595.svg",
     "main.d646caa2.css.map": "/portfolio/static/css/main.d646caa2.css.map",
-    "main.eee1c67b.js.map": "/portfolio/static/js/main.eee1c67b.js.map",
+    "main.e7387c74.js.map": "/portfolio/static/js/main.e7387c74.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d646caa2.css",
-    "static/js/main.eee1c67b.js"
+    "static/js/main.e7387c74.js"
   ]
 }
